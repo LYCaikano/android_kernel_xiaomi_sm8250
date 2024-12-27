@@ -52,7 +52,6 @@ jobs:
 
       - name: Initialize LineageOS source repository
         run: |
-          mkdir -p ~/android/lineage
           cd ~/android/lineage
           repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
 
